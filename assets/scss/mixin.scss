@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+$noto: 'Noto Sans JP', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$quick: 'Quicksand', sans-serif;
+$tbHeight: 70px;
+$inner: 1200px;
+$red: #c00;
+$base-color: #fff;
+$main-color: #7f9fc7;
+$acc-color: #ccc;
+$text-color: #333;
+$font-size: 16px;
+$imgUrl: '@/assets/images/works/';
+$imgUrl2: '@/assets/images/gallery/';
+
+$sp-width: 640px;
+$sp2-width: 520px;
+$tab-width: 834px;
+$pctab-width: 1024px;
+$pc-width: 1366px;
+$base-width: 1200px;
+$base2-width: 1000px;
+
+@mixin flex($justify-content: unset, $align-items: unset) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+@mixin inner {
+  width: $inner;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+@mixin box-shadow(
+  $h: 10px,
+  $v: 10px,
+  $b: 30px,
+  $s: 0px,
+  $c: rgba($text-color, 0.1)
+) {
+  box-shadow: $h $v $b $s $c;
+}
+
+@mixin bgWorks($fileName) {
+  background: url($imgUrl + $fileName);
+  @content;
+}
+
+@mixin bgGallery($fileName) {
+  background: url($imgUrl2 + $fileName);
+  @content;
+}
+
+@mixin sp2 {
+  @media only screen and (max-width: $sp2-width) {
+    @content;
+  }
+}
+@mixin sp {
+  @media only screen and (max-width: $sp-width) {
+    @content;
+  }
+}
+@mixin tab {
+  @media only screen and (max-width: $tab-width) {
+    @content;
+  }
+}
+@mixin pctab {
+  @media only screen and (max-width: $pctab-width) {
+    @content;
+  }
+}
+@mixin mintab {
+  @media screen and (min-width: 1025px) {
+    @content;
+  }
+}
+@mixin base {
+  @media screen and (max-width: $base-width) {
+    @content;
+  }
+}
+@mixin bp1000 {
+  @media screen and (max-width: 1000px) {
+    @content;
+  }
+}
+@mixin bp1200 {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin bp1300 {
+  @media screen and (max-width: 1300px) {
+    @content;
+  }
+}
+@mixin bp1400 {
+  @media screen and (max-width: 1400px) {
+    @content;
+  }
+}

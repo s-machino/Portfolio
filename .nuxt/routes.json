@@ -1,0 +1,107 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/machinosatomi/s-portfolio/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_6fd94cc0"
+  },
+  {
+    "name": "case01",
+    "path": "/case01",
+    "component": "/Users/machinosatomi/s-portfolio/pages/case01.vue",
+    "chunkName": "pages/case01",
+    "_name": "_6bc754ae"
+  },
+  {
+    "name": "case02",
+    "path": "/case02",
+    "component": "/Users/machinosatomi/s-portfolio/pages/case02.vue",
+    "chunkName": "pages/case02",
+    "_name": "_6bd56c2f"
+  },
+  {
+    "name": "case03",
+    "path": "/case03",
+    "component": "/Users/machinosatomi/s-portfolio/pages/case03.vue",
+    "chunkName": "pages/case03",
+    "_name": "_6be383b0"
+  },
+  {
+    "name": "case04",
+    "path": "/case04",
+    "component": "/Users/machinosatomi/s-portfolio/pages/case04.vue",
+    "chunkName": "pages/case04",
+    "_name": "_6bf19b31"
+  },
+  {
+    "name": "case05",
+    "path": "/case05",
+    "component": "/Users/machinosatomi/s-portfolio/pages/case05.vue",
+    "chunkName": "pages/case05",
+    "_name": "_6bffb2b2"
+  },
+  {
+    "name": "case06",
+    "path": "/case06",
+    "component": "/Users/machinosatomi/s-portfolio/pages/case06.vue",
+    "chunkName": "pages/case06",
+    "_name": "_6c0dca33"
+  },
+  {
+    "name": "case07",
+    "path": "/case07",
+    "component": "/Users/machinosatomi/s-portfolio/pages/case07.vue",
+    "chunkName": "pages/case07",
+    "_name": "_6c1be1b4"
+  },
+  {
+    "name": "case08",
+    "path": "/case08",
+    "component": "/Users/machinosatomi/s-portfolio/pages/case08.vue",
+    "chunkName": "pages/case08",
+    "_name": "_6c29f935"
+  },
+  {
+    "name": "case09",
+    "path": "/case09",
+    "component": "/Users/machinosatomi/s-portfolio/pages/case09.vue",
+    "chunkName": "pages/case09",
+    "_name": "_6c3810b6"
+  },
+  {
+    "name": "case10",
+    "path": "/case10",
+    "component": "/Users/machinosatomi/s-portfolio/pages/case10.vue",
+    "chunkName": "pages/case10",
+    "_name": "_6d6e15cc"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/machinosatomi/s-portfolio/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_132045f3"
+  },
+  {
+    "name": "gallery",
+    "path": "/gallery",
+    "component": "/Users/machinosatomi/s-portfolio/pages/gallery.vue",
+    "chunkName": "pages/gallery",
+    "_name": "_ded69fb6"
+  },
+  {
+    "name": "works",
+    "path": "/works",
+    "component": "/Users/machinosatomi/s-portfolio/pages/works.vue",
+    "chunkName": "pages/works",
+    "_name": "_59f84f15"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/machinosatomi/s-portfolio/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_30699736"
+  }
+]
