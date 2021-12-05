@@ -33,6 +33,7 @@ export default {
       { src: 'https://polyfill.io/v3/polyfill.min.js?version=3.52.1' },
       {
         src: 'https://cdn.jsdelivr.net/npm/viewport-extra@2.0.1/dist/iife/viewport-extra.min.js',
+        async: true,
       },
     ],
     link: [
@@ -60,7 +61,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
+    // '@nuxtjs/eslint-module',
   ],
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

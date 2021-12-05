@@ -527,7 +527,7 @@
       margin-top: 10px;
       align-items: center;
       @include sp{
-        font-size: 12px;
+        font-size: 11px;
       }
       .date_title{
         display: block;

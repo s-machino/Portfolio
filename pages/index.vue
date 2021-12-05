@@ -8,6 +8,9 @@
   h1{
     font-size: 2.4em;
     width: 100%;
+    @include sp{
+      font-size: 2em;
+    }
   }
   .main{
     height: calc(100vh - (#{$tbHeight} + #{$tbHeight}));

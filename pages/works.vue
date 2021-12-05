@@ -94,6 +94,15 @@
       display: block;
       margin-bottom: 4%;
       text-align: center;
+      @include sp{
+        width: 100%;
+        &:not(:last-child){
+          margin-bottom: 20px;
+        }
+        &-last-child{
+          margin-bottom: 0;
+        }
+      }
       &:hover{
         img{
           transform: scale(1.05);
@@ -109,6 +118,9 @@
       }
       &:not(:nth-child(2n)){
         margin-right: 4%;
+        @include sp{
+          margin-right: 0;
+        }
       }
       .box{
         &_detail{
