@@ -1,8 +1,8 @@
-export { default as Footer } from '../../components/Footer.vue'
-export { default as Header } from '../../components/Header.vue'
-export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
-export { default as Spnav } from '../../components/Spnav.vue'
-export { default as Tutorial } from '../../components/Tutorial.vue'
+export const Footer = () => import('../../components/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
+export const Header = () => import('../../components/Header.vue' /* webpackChunkName: "components/header" */).then(c => wrapFunctional(c.default || c))
+export const NuxtLogo = () => import('../../components/NuxtLogo.vue' /* webpackChunkName: "components/nuxt-logo" */).then(c => wrapFunctional(c.default || c))
+export const Spnav = () => import('../../components/Spnav.vue' /* webpackChunkName: "components/spnav" */).then(c => wrapFunctional(c.default || c))
+export const Tutorial = () => import('../../components/Tutorial.vue' /* webpackChunkName: "components/tutorial" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
