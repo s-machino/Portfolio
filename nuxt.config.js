@@ -76,7 +76,7 @@ export default {
   axios: {
     baseURL:
       process.env.NODE_ENV === 'production'
-        ? 'https://example.com/'
+        ? 'https://s-machino.netlify.app/'
         : 'http://localhost:3000/',
   },
 
