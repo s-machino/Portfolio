@@ -4,7 +4,6 @@
 body {
   background: url(@/assets/images/common/main.jpg) center;
   background-size: cover;
-  background-attachment: fixed;
   letter-spacing: 0.1em;
   line-height: 2.6em;
   font-family: $noto;
@@ -13,6 +12,9 @@ body {
   font-size: $font-size;
   animation: fadeIn 3s ease 0s 1 normal;
   padding: 0 40px;
+  @include mintab{
+    background-attachment: fixed;
+  }
   @include sp {
     padding: 0 20px;
   }
@@ -53,7 +55,7 @@ h1 {
   text-align: center;
   padding: 80px 0 60px;
   @include sp{
-    padding: 40px 0;
+    padding: 40px 0 20px;
     font-size: 2em;
   }
 }
