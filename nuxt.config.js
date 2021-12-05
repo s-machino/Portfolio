@@ -20,7 +20,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
       {
         name: 'viewport-extra',
-        content: 'width=device-width,initial-scale=1,min-width=520',
+        content: 'width=device-width,initial-scale=1,min-width=375',
       },
     ],
     script: [
