@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>gallery</h1>
+    <h1>Gallery</h1>
       <div class="contents">
         <div class="box_container">
           <a class="box_items" v-for="image in images" :key="image.index" :href="image.link" target="_blank" rel="noopener">
