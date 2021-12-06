@@ -6,8 +6,11 @@
 
 <style lang="scss" scoped>
   h1{
-    font-size: 2.4em;
+    font-size: 3em;
     width: 100%;
+    @include bp1400{
+      font-size: 2.6em;
+    }
     @include sp{
       font-size: 2em;
     }
