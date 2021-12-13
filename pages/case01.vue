@@ -8,7 +8,7 @@
         <p class="tool">Design / HTML / CSS / Javascript</p>
         <p>ホームページ無料制作のオフィシャルプロモーションサイト。<br>
           制作会社としての魅力やメリットが伝わるよう意識し、親しみやすいフラットデザインを採用。<br>
-          コンバージョンにつながるようなUI/UXを心掛けました。</p>
+          コンバージョンにつながるようなUIを心掛けました。</p>
       </div>
       <div class="img_container_pc">
           <div class="img_wrap" v-for="image in images" :key="image.index"><img :src="image.src" :alt="image.alt"></div>
