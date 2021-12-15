@@ -62,14 +62,14 @@
                 date: "2021.05",
                 category: "物流・工場"
               },
-              // {
-              //   index: 6,
-              //   link: "http://hotelapps.tv/",
-              //   src: require("@/assets/images/gallery/gallery_06.jpg"),
-              //   alt: "トータルサポート株式会社",
-              //   date: "2020.06",
-              //   category: "機械・電機・工業"
-              // },
+              {
+                index: 6,
+                link: "http://hotelapps.tv/",
+                src: require("@/assets/images/gallery/gallery_06.jpg"),
+                alt: "トータルサポート株式会社",
+                date: "2020.06",
+                category: "機械・電機・工業"
+              },
               {
                 index: 7,
                 link: "https://u-clinic.yokohama/",
