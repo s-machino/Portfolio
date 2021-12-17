@@ -7,7 +7,8 @@
         <a href="https://enn-lab.co.jp/lp/" target="_blank" rel="noopener">https://enn-lab.co.jp/lp/</a>
         <p class="tool">Wordpress / HTML / CSS / Javascript / PHP</p>
         <p>指定障害福祉サービス・自立訓練事業されているお客様のプロモーションサイト。<br>
-        お客様のご要望により、ワードプレスにて制作。お問い合わせフォームは各事業所に送信できるようプラグインを拡張。<br>
+        お客様のご要望により、HTMLベースで制作後、ワードプレスに組み込みました。<br>
+        お問い合わせフォームは各事業所に送信できるようプラグインを拡張。<br>
         コーディングに関してはスマートフォンでの見やすさを特に力を入れて意識いたしました。</p>
       </div>
       <div class="img_container_pc">

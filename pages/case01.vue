@@ -6,9 +6,9 @@
         <b class="name">イートラスト株式会社</b>
         <a href="https://hp-free.com/" target="_blank" rel="noopener">https://hp-free.com/</a>
         <p class="tool">Design / HTML / CSS / Javascript</p>
-        <p>ホームページ無料制作のオフィシャルプロモーションサイト。<br>
-          制作会社としての魅力やメリットが伝わるよう意識し、親しみやすいフラットデザインを採用。<br>
-          コンバージョンにつながるようなUIを心掛けました。</p>
+        <p>ホームページ制作会社のプロモーションサイト。<br>
+          『制作費0円』や『無料サポート』など、豊富なサービス内容をより見ていただけるよう、下のコンテンツまで飽きさせないような遊び心のあるデザインに。<br>
+          また制作会社としての親しみやすさが伝わるようなフラットデザインを採用、コンバージョンにつながるようなUIを心掛けました。。<br></p>
       </div>
       <div class="img_container_pc">
           <div class="img_wrap" v-for="image in images" :key="image.index"><img :src="image.src" :alt="image.alt"></div>

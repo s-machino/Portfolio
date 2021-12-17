@@ -386,7 +386,7 @@
                 index: 46,
                 link: "https://fukushima-dk.com/",
                 src: require("@/assets/images/gallery/gallery_46.jpg"),
-                alt: "イートラスト株式会社",
+                alt: "福島電気工事株式会社",
                 date: "2021.03",
                 category: "機械・電機・工業"
               },
@@ -456,6 +456,7 @@
               },
               {
                 index: 55,
+                link: "https://apps.apple.com/jp/app/bxi-5g/id1530321262",
                 src: require("@/assets/images/gallery/gallery_55.jpg"),
                 alt: "自社CMSアプリロゴ",
                 date: "2020.9",

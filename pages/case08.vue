@@ -7,7 +7,7 @@
         <a href="https://tram2014.com/" target="_blank" rel="noopener">https://tram2014.com/</a>
         <p class="tool">Design / HTML / CSS / Javascript</p>
         <p>埼玉県越谷市にある美容室の店舗紹介サイト。<br>
-        フォントや余白感・写真もこだわり、店舗のテーマが「ヨーロッパの路面電車」とのことで、海外のような洗練されたサイトデザインに。<br>
+        フォントや余白感・写真もこだわり、店舗のテーマが「ヨーロッパの路面電車」とのことで、海外風の洗練されたサイトデザインに。<br>
         ローディングアニメーションから始まり、各コンテンツにも飽きさせないような遊び心のあるアニメーションを実装。</p>
       </div>
       <div class="img_container_pc">
