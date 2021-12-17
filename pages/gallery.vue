@@ -446,14 +446,14 @@
                 date: "2021.11",
                 category: "学校・教育・保育園・幼稚園"
               },
-              {
-                index: 54,
-                link: "https://elp35.jp/",
-                src: require("@/assets/images/gallery/gallery_54.jpg"),
-                alt: "株式会社ELP35",
-                date: "2021.12",
-                category: "家電・生活用品"
-              },
+              // {
+              //   index: 54,
+              //   link: "https://elp35.jp/",
+              //   src: require("@/assets/images/gallery/gallery_54.jpg"),
+              //   alt: "株式会社ELP35",
+              //   date: "2021.12",
+              //   category: "家電・生活用品"
+              // },
               {
                 index: 55,
                 link: "https://apps.apple.com/jp/app/bxi-5g/id1530321262",
