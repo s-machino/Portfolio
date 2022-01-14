@@ -40,7 +40,6 @@
               },
               {
                 index: 3,
-                link: "https://next-stage.chiba.jp/",
                 src: require("@/assets/images/gallery/gallery_03.jpg"),
                 alt: "株式会社NEXT STAGE",
                 date: "2021.6",

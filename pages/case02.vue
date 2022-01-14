@@ -4,7 +4,6 @@
     <div class="contents">
       <div class="case_datail">
         <b class="name">株式会社NEXT STAGE</b>
-        <a href="https://next-stage.chiba.jp/" target="_blank" rel="noopener">https://next-stage.chiba.jp/</a>
         <p class="tool">Design / HTML / CSS / Javascript</p>
         <p>千葉県初の退職代行サービス展開をされているお客様のプロモーションサイト。<br>
         設立されたばかりの会社様ということもあり、とにかくコンバージョンに繋がるようなUIデザインを意識。<br>
