@@ -1,8 +1,7 @@
-import Sass from 'sass'
-import Fiber from 'fibers'
+import Sass from 'sass';
+import Fiber from 'fibers';
 
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
   ssr: false,
   // target: "static",
   htmlAttrs: {
@@ -49,38 +48,28 @@ export default {
     ],
   },
   loading: { color: '#fff' },
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/css/reset.css'],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [{ src: '@/plugins/common.js', mode: 'client' }],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
     // '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics',
   ],
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/style-resources',
-    '@nuxtjs/axios',
-  ],
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID,
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID,
+    },
+  },
+  modules: ['@nuxtjs/style-resources', '@nuxtjs/axios'],
   styleResources: {
-    scss: ['@/assets/scss/common.scss', '@/assets/scss/mixin.scss'],
+    scss: ['@/assets/scss/common.scss', '@/assets/scss/config.scss'],
   },
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL:
-      process.env.NODE_ENV === 'production'
-        ? 'https://s-machino.netlify.app/'
-        : 'http://localhost:3000/',
+    baseURL: process.env.NODE_ENV === 'production' ? 'https://s-machino.netlify.app/' : 'http://localhost:5555/',
   },
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     loaders: {
       scss: {
@@ -91,4 +80,4 @@ export default {
       },
     },
   },
-}
+};

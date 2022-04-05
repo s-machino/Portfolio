@@ -3,13 +3,23 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['plugin:vue/essential', 'airbnb-base'],
+  extends: [
+    'eslint-plugin-vue',
+    'eslint-plugin-nuxt',
+    'slint-plugin-prettier',
+    'eslint-config-prettier',
+  ],
   parserOptions: {
-    ecmaVersion: 'latest',
     sourceType: 'module',
+    ecmaFeatures: {
+      modules: true,
+    },
   },
   plugins: ['vue'],
   rules: {
-    'multi-word-component-names': false,
+    'vue/multi-word-component-names': 'off',
+    'import/no-unresolved': 'off',
+    'import/no-extraneous-dependencies:': 'off',
+    'global-require': 'off',
   },
 };

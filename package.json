@@ -2,8 +2,13 @@
   "name": "portfolio",
   "version": "1.0.0",
   "private": true,
+  "description": "## Build Setup",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --port 5555",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -13,31 +18,30 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
+    "fibers": "^5.0.1",
     "nuxt": "^2.15.8",
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-sass-resources-loader": "^2.0.5",
+    "remove": "^0.1.5",
+    "sass": "^1.49.11",
+    "sass-loader": "10.1.1",
     "webpack": "^4.46.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/style-resources": "^1.2.1",
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.4.0",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.5.0",
-    "fibers": "^5.0.0",
-    "node-sass": "^6.0.1",
     "prettier": "^2.3.2",
-    "sass": "^1.42.1",
-    "sass-loader": "^10.2.0"
-  },
-  "description": "## Build Setup",
-  "main": ".eslintrc.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^3.0.0"
+  }
 }
