@@ -2,13 +2,21 @@
   <div>
     <h1>Gallery</h1>
     <div class="contents">
-      <div class="box_container">
-        <a class="box_items" v-for="image in images" :key="image.index" :href="image.link" target="_blank" rel="noopener">
-          <img :src="image.src" :alt="image.alt" />
-          <div class="box_detail">
-            <span class="category">{{ image.category }}</span>
-            <span class="date_title">
-              <span class="date">{{ image.date }} </span>| <span class="title">{{ image.alt }}</span>
+      <div class="card-wrapper">
+        <a
+          class="card"
+          v-for="image in images"
+          :key="image.index"
+          :href="image.link"
+          target="_blank"
+          rel="noopener"
+        >
+          <img :src="image.src" :alt="image.alt" class="card-image" loading="lazy" />
+          <div class="card-detail">
+            <span class="card-category">{{ image.category }}</span>
+            <span class="card-text">
+              <span class="card-date">{{ image.date }} </span>|
+              <span class="card-title">{{ image.alt }}</span>
             </span>
           </div>
         </a>
@@ -484,44 +492,45 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.box {
-  &_container {
-    display: flex;
+.card {
+  width: 30.6%;
+  display: block;
+  margin-bottom: 4%;
+  @include tab {
+    width: 48%;
+  }
+  &:not(:nth-child(3n)) {
+    margin-right: 4%;
+    @include tab {
+      margin-right: 0;
+    }
+  }
+  &:not(:nth-child(2n)) {
+    @include tab {
+      margin-right: 4%;
+    }
+  }
+  &:hover {
+    .card-image {
+      transform: scale(1.05);
+    }
+  }
+
+  &-image {
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    transition: 0.3s;
+    @include box-shadow(0, 3px, 12px, 0, rgba(black, 0.2));
+  }
+
+  &-wrapper {
+    @include flex(unset, unset);
     flex-wrap: wrap;
   }
-  &_items {
-    width: 30.6%;
-    display: block;
-    margin-bottom: 4%;
-    @include tab {
-      width: 48%;
-    }
-    &:not(:nth-child(3n)) {
-      margin-right: 4%;
-      @include tab {
-        margin-right: 0;
-      }
-    }
-    &:not(:nth-child(2n)) {
-      @include tab {
-        margin-right: 4%;
-      }
-    }
-    &:hover {
-      img {
-        transform: scale(1.05);
-      }
-    }
-    img {
-      border-radius: 5px;
-      width: 100%;
-      object-fit: cover;
-      font-family: 'object-fit: cover;';
-      transition: 0.3s;
-      @include box-shadow(0, 3px, 12px, 0, rgba(black, 0.2));
-    }
-  }
-  &_detail {
+
+  &-detail {
     font-size: 13px;
     line-height: 2.4;
     margin-top: 10px;
@@ -529,20 +538,24 @@ export default {
     @include sp {
       font-size: 11px;
     }
-    .date_title {
-      display: block;
-      .date {
-        padding-right: 5px;
-      }
-      .title {
-        padding-left: 5px;
-      }
-    }
-    .category {
-      background: #eee;
-      border-radius: 2px;
-      padding: 3px 5px;
-    }
+  }
+
+  &-text {
+    display: block;
+  }
+
+  &-date {
+    padding-right: 5px;
+  }
+
+  &-title {
+    padding-left: 5px;
+  }
+
+  &-category {
+    background: #eee;
+    border-radius: 2px;
+    padding: 3px 5px;
   }
 }
 </style>

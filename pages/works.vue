@@ -2,11 +2,11 @@
   <div>
     <h1>Works</h1>
     <div class="contents">
-      <div class="box_container">
-        <nuxt-link v-for="image in images" class="box_items" :to="image.link" :key="image.index">
-          <img :src="image.src" :alt="image.alt" />
-          <div class="box_detail">
-            <span class="title">{{ image.alt }}</span>
+      <div class="box-wrapper">
+        <nuxt-link v-for="image in images" class="box" :to="image.link" :key="image.index">
+          <img :src="image.src" :alt="image.alt" class="box-image" />
+          <div class="box-detail">
+            <span class="box-title">{{ image.alt }}</span>
           </div>
         </nuxt-link>
       </div>
@@ -86,55 +86,54 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.box_container {
-  display: flex;
-  flex-wrap: wrap;
-  > a {
-    width: 48%;
-    display: block;
-    margin-bottom: 4%;
-    text-align: center;
-    @include sp {
-      width: 100%;
-      &:not(:last-child) {
-        margin-bottom: 20px;
-      }
-      &-last-child {
-        margin-bottom: 0;
-      }
+.box {
+  width: 48%;
+  display: block;
+  margin-bottom: 4%;
+  text-align: center;
+  @include sp {
+    width: 100%;
+    &:not(:last-child) {
+      margin-bottom: 20px;
     }
-    &:hover {
-      img {
-        transform: scale(1.05);
-      }
+    &-last-child {
+      margin-bottom: 0;
     }
+  }
+  &:hover {
     img {
-      border-radius: 5px;
-      width: 100%;
-      object-fit: cover;
-      font-family: 'object-fit: cover;';
-      transition: 0.3s;
-      filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+      transform: scale(1.05);
     }
-    &:not(:nth-child(2n)) {
-      margin-right: 4%;
-      @include sp {
-        margin-right: 0;
-      }
+  }
+
+  &-wrapper {
+    @include flex(unset, unset);
+    flex-wrap: wrap;
+  }
+
+  &-image {
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    transition: 0.3s;
+    filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+  }
+  &:not(:nth-child(2n)) {
+    margin-right: 4%;
+    @include sp {
+      margin-right: 0;
     }
-    .box {
-      &_detail {
-        margin-top: 12px;
-        line-height: 1.8;
-      }
-    }
-    .title {
-      font-size: 16px;
-      font-family: $noto;
-      @include sp {
-        font-size: 14px;
-      }
-    }
+  }
+
+  &-detail {
+    margin-top: 12px;
+    line-height: 1.8;
+  }
+
+  &-title {
+    font-size: 14px;
+    font-family: $noto;
   }
 }
 </style>
