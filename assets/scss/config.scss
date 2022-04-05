@@ -1,17 +1,15 @@
-@charset "UTF-8";
-
 $noto: 'Noto Sans JP', sans-serif;
 $roboto: 'Roboto', sans-serif;
 $quick: 'Quicksand', sans-serif;
 $tbHeight: 70px;
 $inner: 1200px;
 $red: #c00;
-$base-color: #fff;
+$base-color: #ffffff;
 $main-color: #7f9fc7;
-$acc-color: #ccc;
-$text-color: #333;
-$font-size: 16px;
-$font-size-sp: 14px;
+$acc-color: #cccccc;
+$text-color: #333333;
+$font-size: 1.6rem;
+$font-size-sp: 1.4rem;
 $imgUrl: '@/assets/images/works/';
 $imgUrl2: '@/assets/images/gallery/';
 
@@ -35,13 +33,7 @@ $base2-width: 1000px;
   max-width: 100%;
 }
 
-@mixin box-shadow(
-  $h: 10px,
-  $v: 10px,
-  $b: 30px,
-  $s: 0px,
-  $c: rgba($text-color, 0.1)
-) {
+@mixin box-shadow($h: 10px, $v: 10px, $b: 30px, $s: 0px, $c: rgba($text-color, 0.1)) {
   box-shadow: $h $v $b $s $c;
 }
 
@@ -103,5 +95,14 @@ $base2-width: 1000px;
 @mixin bp1400 {
   @media screen and (max-width: 1400px) {
     @content;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
