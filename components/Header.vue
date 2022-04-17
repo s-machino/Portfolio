@@ -30,10 +30,7 @@
 
   &-list {
     @include flex(center, unset);
-  }
-
-  &-item {
-    margin: 0 20px;
+    gap: 32px;
   }
 
   &-link {
