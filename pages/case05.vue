@@ -4,7 +4,7 @@
     <div class="contents">
       <div class="case_datail">
         <b class="name">アルファ・ジャパン</b>
-        <a href="https://mining-express.net/" target="_blank" rel="noopener">https://mining-express.net/</a>
+        <!-- <a href="https://mining-express.net/" target="_blank" rel="noopener">https://mining-express.net/</a> -->
         <p class="tool">Design / HTML / CSS / Javascript</p>
         <p>
           データセンター事業されているお客様のコーポレートサイト。<br />
@@ -13,10 +13,14 @@
         </p>
       </div>
       <div class="img_container_pc">
-        <div class="img_wrap" v-for="image in images" :key="image.index"><img :src="image.src" :alt="image.alt" /></div>
+        <div class="img_wrap" v-for="image in images" :key="image.index">
+          <img :src="image.src" :alt="image.alt" />
+        </div>
       </div>
       <div class="img_container_sp">
-        <div class="img_wrap" v-for="image2 in images2" :key="image2.index"><img :src="image2.src" :alt="image2.alt" /></div>
+        <div class="img_wrap" v-for="image2 in images2" :key="image2.index">
+          <img :src="image2.src" :alt="image2.alt" />
+        </div>
       </div>
     </div>
   </div>

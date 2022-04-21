@@ -3,7 +3,12 @@
     <h1>Works</h1>
     <div class="contents">
       <div class="box-wrapper">
-        <nuxt-link v-for="image in images" class="box" :to="image.link" :key="image.index">
+        <nuxt-link
+          v-for="image in sortedImagesById"
+          class="box"
+          :to="image.link"
+          :key="image.index"
+        >
           <img :src="image.src" :alt="image.alt" class="box-image" />
           <div class="box-detail">
             <span class="box-title">{{ image.alt }}</span>
@@ -16,6 +21,13 @@
 
 <script>
 export default {
+  computed: {
+    sortedImagesById() {
+      return this.images.sort((a, b) => {
+        return b.index - a.index;
+      });
+    },
+  },
   data() {
     return {
       images: [
@@ -78,6 +90,12 @@ export default {
           link: '/case10',
           src: require('@/assets/images/works/works_10_thumb.jpg'),
           alt: '株式会社井口石材',
+        },
+        {
+          index: 11,
+          link: '/case11',
+          src: require('@/assets/images/works/works_11_thumb.jpg'),
+          alt: '株式会社R / カラーズ',
         },
       ],
     };
