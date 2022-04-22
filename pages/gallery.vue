@@ -465,7 +465,7 @@ export default {
           index: 55,
           link: 'https://apps.apple.com/jp/app/bxi-5g/id1530321262',
           src: require('@/assets/images/gallery/gallery_55.jpg'),
-          alt: '自社CMSアプリロゴ',
+          alt: 'イートラスト株式会社',
           date: '2020.9',
           category: 'ロゴ制作',
         },
