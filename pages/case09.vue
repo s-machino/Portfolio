@@ -4,8 +4,10 @@
     <div class="contents">
       <div class="case_datail">
         <b class="name">合同会社ECOlead</b>
-        <a href="https://ecolead1217.com/" target="_blank" rel="noopener">https://ecolead1217.com/</a>
-        <p class="tool">Design / HTML / CSS / Javascript</p>
+        <a href="https://ecolead1217.com/" target="_blank" rel="noopener"
+          >https://ecolead1217.com/</a
+        >
+        <p class="tool">Design / Photoshop / HTML / Scss / Javascript</p>
         <p>
           不用品回収/買取/遺品整理のサービス紹介サイト。コンバージョンに繋がるようなサイトをご要望でしたので、<br />
           TOPページはプロモーションサイトのようなメリハリのある構成・デザインに。<br />
@@ -13,10 +15,14 @@
         </p>
       </div>
       <div class="img_container_pc">
-        <div class="img_wrap" v-for="image in images" :key="image.index"><img :src="image.src" :alt="image.alt" /></div>
+        <div class="img_wrap" v-for="image in images" :key="image.index">
+          <img :src="image.src" :alt="image.alt" />
+        </div>
       </div>
       <div class="img_container_sp">
-        <div class="img_wrap" v-for="image2 in images2" :key="image2.index"><img :src="image2.src" :alt="image2.alt" /></div>
+        <div class="img_wrap" v-for="image2 in images2" :key="image2.index">
+          <img :src="image2.src" :alt="image2.alt" />
+        </div>
       </div>
     </div>
   </div>

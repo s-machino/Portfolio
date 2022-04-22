@@ -34,8 +34,8 @@ export default {
         {
           index: 1,
           link: '/case01',
-          src: require('@/assets/images/works/works_01_thumb.jpg'),
-          alt: 'イートラスト株式会社',
+          src: require('@/assets/images/works/works_10_thumb.jpg'),
+          alt: '株式会社井口石材',
         },
         {
           index: 2,
@@ -88,8 +88,8 @@ export default {
         {
           index: 10,
           link: '/case10',
-          src: require('@/assets/images/works/works_10_thumb.jpg'),
-          alt: '株式会社井口石材',
+          src: require('@/assets/images/works/works_01_thumb.jpg'),
+          alt: 'イートラスト株式会社',
         },
         {
           index: 11,

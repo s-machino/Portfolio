@@ -3,13 +3,15 @@
     <h1>Case 01</h1>
     <div class="contents">
       <div class="case_datail">
-        <b class="name">イートラスト株式会社</b>
-        <a href="https://hp-free.com/" target="_blank" rel="noopener">https://hp-free.com/</a>
-        <p class="tool">Design / HTML / CSS / Javascript</p>
+        <b class="name">株式会社井口石材</b>
+        <a href="https://iguchisekizai.co.jp/" target="_blank" rel="noopener"
+          >https://iguchisekizai.co.jp/</a
+        >
+        <p class="tool">Direction / Design / Photoshop / HTML / Scss / Javascript</p>
         <p>
-          ホームページ制作会社のプロモーションサイト。<br />
-          『制作費0円』や『無料サポート』など、豊富なサービス内容をより見ていただけるよう、下のコンテンツまで飽きさせないような遊び心のあるデザインに。<br />
-          また制作会社としての親しみやすさが伝わるようなフラットデザインを採用、コンバージョンにつながるようなUIを心掛けました。<br />
+          老舗である石材店様のコーポレートサイト。本件ではディレクションから携わらせていただきました。<br />
+          新しいサービスである「ソウルジュエリー」の紹介もしつつ、メインは歴史ある寺院墓地やサービス内容などの紹介。<br />
+          ターゲットが高齢層ということもあり、見やすく、かつ落ち着きのあるデザインを意識いたしました。
         </p>
       </div>
       <div class="img_container_pc">
@@ -33,35 +35,35 @@ export default {
       images: [
         {
           index: 1,
-          src: require('@/assets/images/works/works_01-1_pc.jpg'),
-          alt: 'イートラスト株式会社PC',
+          src: require('@/assets/images/works/works_10-1_pc.jpg'),
+          alt: '株式会社井口石材PCメイン画像1',
         },
         {
           index: 2,
-          src: require('@/assets/images/works/works_01-2_pc.jpg'),
-          alt: 'イートラスト株式会社PC',
+          src: require('@/assets/images/works/works_10-2_pc.jpg'),
+          alt: '株式会社井口石材PCメイン画像2',
         },
         {
           index: 3,
-          src: require('@/assets/images/works/works_01-3_pc.jpg'),
-          alt: 'イートラスト株式会社PC',
+          src: require('@/assets/images/works/works_10-3_pc.jpg'),
+          alt: '株式会社井口石材PCメイン画像3',
         },
       ],
       images2: [
         {
           index: 1,
-          src: require('@/assets/images/works/works_01-1_sp.png'),
-          alt: 'イートラスト株式会社SP',
+          src: require('@/assets/images/works/works_10-1_sp.png'),
+          alt: '株式会社井口石材SPメイン画像1',
         },
         {
           index: 2,
-          src: require('@/assets/images/works/works_01-2_sp.png'),
-          alt: 'イートラスト株式会社SP',
+          src: require('@/assets/images/works/works_10-2_sp.png'),
+          alt: '株式会社井口石材SPメイン画像2',
         },
         {
           index: 3,
-          src: require('@/assets/images/works/works_01-3_sp.png'),
-          alt: 'イートラスト株式会社SP',
+          src: require('@/assets/images/works/works_10-3_sp.png'),
+          alt: '株式会社井口石材SPメイン画像3',
         },
       ],
     };

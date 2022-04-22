@@ -4,10 +4,12 @@
     <div class="contents">
       <div class="case_datail">
         <b class="name">有限会社ステップファクトリー</b>
-        <a href="https://stepfactory.co.jp/" target="_blank" rel="noopener">https://stepfactory.co.jp/</a>
-        <p class="tool">Design / HTML / CSS / Javascript</p>
+        <a href="https://stepfactory.co.jp/" target="_blank" rel="noopener"
+          >https://stepfactory.co.jp/</a
+        >
+        <p class="tool">Design / Photoshop / HTML / Scss / Javascript</p>
         <p>
-          企画・生産・営業・販売支援のトータルサポートされているお客様のコーポレートサイト。<br />
+          企画・生産・営業・販売支援のトータルサポートをされている企業様のコーポレートサイト。<br />
           国内外でサービス展開されていることもあり、どこか洋風、ボタンデザインも少し個性のあるものに。
         </p>
       </div>

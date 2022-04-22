@@ -4,11 +4,11 @@
     <div class="contents">
       <div class="case_datail">
         <b class="name">株式会社NEXT STAGE</b>
-        <p class="tool">Design / HTML / CSS / Javascript</p>
+        <p class="tool">Design / Photoshop / HTML / Scss / Javascript</p>
         <p>
-          千葉県初の退職代行サービス展開をされているお客様のプロモーションサイト。<br />
-          設立されたばかりの会社様ということもあり、とにかくコンバージョンに繋がるようなUIデザインを意識。<br />
-          問い合わせに誘導するようなデザイン、動きを加えるなど各パーツにも一工夫させていただきました。
+          退職代行サービスのプロモーションサイト。<br />
+          設立されたばかりということもあり、コンバージョンに繋がるようなUIを意識。<br />
+          フォームに誘導するようなデザイン、CVボタンに動きを加えるなど工夫させていただきました。
         </p>
       </div>
       <div class="img_container_pc">

@@ -5,18 +5,22 @@
       <div class="case_datail">
         <b class="name">TRAM</b>
         <a href="https://tram2014.com/" target="_blank" rel="noopener">https://tram2014.com/</a>
-        <p class="tool">Design / HTML / CSS / Javascript</p>
+        <p class="tool">Design / Photoshop / HTML / Scss / Javascript</p>
         <p>
-          埼玉県越谷市にある美容室の店舗紹介サイト。<br />
-          フォントや余白感・写真もこだわり、店舗のテーマが「ヨーロッパの路面電車」とのことで、海外風の洗練されたサイトデザインに。<br />
+          美容室・サロンの店舗紹介サイト。<br />
+          フォントや余白感・使用する画像にもこだわり、店舗のテーマが「ヨーロッパの路面電車」とのことで、海外風の洗練されたサイトデザインに。<br />
           ローディングアニメーションから始まり、各コンテンツにも飽きさせないような遊び心のあるアニメーションを実装。
         </p>
       </div>
       <div class="img_container_pc">
-        <div class="img_wrap" v-for="image in images" :key="image.index"><img :src="image.src" :alt="image.alt" /></div>
+        <div class="img_wrap" v-for="image in images" :key="image.index">
+          <img :src="image.src" :alt="image.alt" />
+        </div>
       </div>
       <div class="img_container_sp">
-        <div class="img_wrap" v-for="image2 in images2" :key="image2.index"><img :src="image2.src" :alt="image2.alt" /></div>
+        <div class="img_wrap" v-for="image2 in images2" :key="image2.index">
+          <img :src="image2.src" :alt="image2.alt" />
+        </div>
       </div>
     </div>
   </div>

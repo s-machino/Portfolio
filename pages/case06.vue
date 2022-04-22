@@ -5,18 +5,22 @@
       <div class="case_datail">
         <b class="name">医療法人社団央優会</b>
         <a href="https://oyukai-lc.net/" target="_blank" rel="noopener">https://oyukai-lc.net/</a>
-        <p class="tool">Design / HTML / CSS / Javascript</p>
+        <p class="tool">Design / Photoshop / HTML / Scss / Javascript</p>
         <p>
-          神奈川県相模原市にあるレディースクリニック様の医院紹介サイト。<br />
-          サイトデザインに関しては、高級感のある美しい院内内観に合わせ、品のあるシンプルでスタイリッシュなものに。<br />
+          レディースクリニック様の医院紹介サイト。<br />
+          トンマナに関しては、高級感のある美しい院内内観に合わせ、品のあるシンプルでスタイリッシュなものに。<br />
           WEB予約が容易にできるよう、ボタンは常時固定を採用いたしました。
         </p>
       </div>
       <div class="img_container_pc">
-        <div class="img_wrap" v-for="image in images" :key="image.index"><img :src="image.src" :alt="image.alt" /></div>
+        <div class="img_wrap" v-for="image in images" :key="image.index">
+          <img :src="image.src" :alt="image.alt" />
+        </div>
       </div>
       <div class="img_container_sp">
-        <div class="img_wrap" v-for="image2 in images2" :key="image2.index"><img :src="image2.src" :alt="image2.alt" /></div>
+        <div class="img_wrap" v-for="image2 in images2" :key="image2.index">
+          <img :src="image2.src" :alt="image2.alt" />
+        </div>
       </div>
     </div>
   </div>
