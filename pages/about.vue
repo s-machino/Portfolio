@@ -14,11 +14,11 @@
           <h2>Overview</h2>
         </div>
         <p>
-          WEBデザイン、フロントエンド業務をメインに活動をしております。<br />
-          デザインツール：Photoshop、Illustrator、XD<br />
-          主要言語：HTML、CSS（Sass）、JavaScript（ES6・JQuery・Vue.js・React）、WordPress<br />
-          デザイナー、フロントエンドエンジニアとして東京都内の制作会社に3年在籍後フリーランスに。<br />
-          現在はフロントエンジニアとして事業会社様に業務委託をしていただいております。<br />
+          Webデザイナー、フロントエンドエンジニアとして活動をしております。<br />
+          デザインツール：Photoshop、Illustrator、Adobe XD<br />
+          プログラミング言語：HTML、CSS（Sass）、JavaScript（ES6・JQuery・Vue.js・React）、Typescript、WordPress<br />
+          Webデザイナー、フロントエンドエンジニアとして東京都内の制作会社に3年在籍後フリーランスに。<br />
+          現在はフロントエンジニアとして企業様に業務委託をしていただいております。<br />
           制作会社在籍時は部署のチームリーダーやディレクションも経験。<br />
           現時点で担当した案件数は200件以上。個人での案件受託もしております。
         </p>
