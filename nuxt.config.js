@@ -1,5 +1,5 @@
 import Sass from 'sass';
-import Fiber from 'fibers';
+// import Fiber from 'fibers';
 
 export default {
   ssr: false,
@@ -35,19 +35,15 @@ export default {
   css: ['@/assets/css/reset.css'],
   plugins: [{ src: '@/plugins/common.js', mode: 'client' }],
   components: true,
+  buildModules: ['@nuxtjs/dotenv'],
   modules: [
     '@nuxtjs/style-resources',
     '@nuxtjs/axios',
     '@nuxtjs/eslint-module',
-    ['@nuxtjs/google-analytics', { id: 'UA-226873941-1' }],
+    '@nuxtjs/google-gtag',
   ],
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID,
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID,
-    },
+  'google-gtag': {
+    id: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
   },
   styleResources: {
     scss: ['@/assets/scss/common.scss', '@/assets/scss/config.scss'],
@@ -63,7 +59,7 @@ export default {
       scss: {
         implementation: Sass,
         sassOptions: {
-          fiber: Fiber,
+          // fiber: Fiber,
         },
       },
     },
