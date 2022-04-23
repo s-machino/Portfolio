@@ -40,11 +40,14 @@ export default {
     '@nuxtjs/style-resources',
     '@nuxtjs/axios',
     '@nuxtjs/eslint-module',
-    '@nuxtjs/google-gtag',
+    [
+      '@nuxtjs/google-gtag',
+      {
+        id: 'G-WJ6W8LFK7H',
+        debug: true,
+      },
+    ],
   ],
-  'google-gtag': {
-    id: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
-  },
   styleResources: {
     scss: ['@/assets/scss/common.scss', '@/assets/scss/config.scss'],
   },
