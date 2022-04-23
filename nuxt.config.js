@@ -41,7 +41,14 @@ export default {
     '@nuxtjs/eslint-module',
     ['@nuxtjs/google-analytics', { id: 'UA-226873941-1' }],
   ],
-
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID,
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID,
+    },
+  },
   styleResources: {
     scss: ['@/assets/scss/common.scss', '@/assets/scss/config.scss'],
   },
