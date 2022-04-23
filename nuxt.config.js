@@ -17,24 +17,8 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
-      {
-        name: 'viewport-extra',
-        content: 'width=device-width,initial-scale=1,min-width=375',
-      },
     ],
-    script: [
-      {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
-        async: true,
-        defer: true,
-        body: true,
-      },
-      { src: 'https://polyfill.io/v3/polyfill.min.js?version=3.52.1' },
-      {
-        src: 'https://cdn.jsdelivr.net/npm/viewport-extra@2.0.1/dist/iife/viewport-extra.min.js',
-        async: true,
-      },
-    ],
+    script: [],
     link: [
       {
         rel: 'stylesheet',
@@ -51,10 +35,21 @@ export default {
   css: ['@/assets/css/reset.css'],
   plugins: [{ src: '@/plugins/common.js', mode: 'client' }],
   components: true,
-  buildModules: [
-    // '@nuxtjs/eslint-module',
+  modules: [
+    '@nuxtjs/style-resources',
+    '@nuxtjs/axios',
     '@nuxtjs/google-analytics',
+    // '@nuxtjs/eslint-module',
   ],
+  styleResources: {
+    scss: ['@/assets/scss/common.scss', '@/assets/scss/config.scss'],
+  },
+  axios: {
+    baseURL:
+      process.env.NODE_ENV === 'production'
+        ? 'https://s-machino.netlify.app/'
+        : 'http://localhost:5555/',
+  },
   googleAnalytics: {
     id: process.env.GOOGLE_ANALYTICS_ID,
   },
@@ -62,13 +57,6 @@ export default {
     googleAnalytics: {
       id: process.env.GOOGLE_ANALYTICS_ID,
     },
-  },
-  modules: ['@nuxtjs/style-resources', '@nuxtjs/axios'],
-  styleResources: {
-    scss: ['@/assets/scss/common.scss', '@/assets/scss/config.scss'],
-  },
-  axios: {
-    baseURL: process.env.NODE_ENV === 'production' ? 'https://s-machino.netlify.app/' : 'http://localhost:5555/',
   },
   build: {
     loaders: {
