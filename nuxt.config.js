@@ -38,7 +38,7 @@ export default {
   modules: [
     '@nuxtjs/style-resources',
     '@nuxtjs/axios',
-    // '@nuxtjs/eslint-module',
+    '@nuxtjs/eslint-module',
     ['@nuxtjs/google-analytics', { id: 'UA-226873941-1' }],
   ],
 
