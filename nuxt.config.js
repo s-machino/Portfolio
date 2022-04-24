@@ -44,7 +44,7 @@ export default {
       '@nuxtjs/google-gtag',
       {
         id: 'G-WJ6W8LFK7H',
-        debug: true,
+        debug: false,
       },
     ],
   ],
