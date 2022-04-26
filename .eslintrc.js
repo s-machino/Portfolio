@@ -1,25 +1,19 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
-    es2021: true,
+    node: true,
   },
-  extends: [
-    'eslint-plugin-vue',
-    'eslint-plugin-nuxt',
-    'slint-plugin-prettier',
-    'eslint-config-prettier',
-  ],
   parserOptions: {
-    sourceType: 'module',
-    ecmaFeatures: {
-      modules: true,
-    },
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false,
   },
-  plugins: ['vue'],
+  extends: ['@nuxtjs', 'prettier'],
+  plugins: [],
   rules: {
     'vue/multi-word-component-names': 'off',
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies:': 'off',
     'global-require': 'off',
   },
-};
+}
