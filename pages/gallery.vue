@@ -495,7 +495,7 @@ export default {
         },
         {
           index: 59,
-          link: 'https://kintoki-an.com/',
+          link: 'https://soranohane.com/',
           src: require('@/assets/images/gallery/gallery_59.jpg'),
           alt: '空のはね',
           date: '2022.3',
