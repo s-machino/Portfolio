@@ -35,19 +35,16 @@ export default {
   css: ['@/assets/css/reset.css'],
   plugins: [{ src: '@/plugins/common.js', mode: 'client' }],
   components: true,
-  buildModules: ['@nuxtjs/dotenv'],
   modules: [
     '@nuxtjs/style-resources',
     '@nuxtjs/axios',
     '@nuxtjs/eslint-module',
-    [
-      '@nuxtjs/google-gtag',
-      {
-        id: 'G-WJ6W8LFK7H',
-        debug: false,
-      },
-    ],
+    ['@nuxtjs/google-gtag'],
   ],
+  'google-gtag': {
+    id: 'G-WJ6W8LFK7H',
+    debug: false,
+  },
   styleResources: {
     scss: ['@/assets/scss/common.scss', '@/assets/scss/config.scss'],
   },
