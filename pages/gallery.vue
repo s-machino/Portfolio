@@ -4,9 +4,9 @@
     <div class="contents">
       <div class="card-wrapper">
         <a
-          class="card"
           v-for="image in images"
           :key="image.index"
+          class="card"
           :href="image.link"
           target="_blank"
           rel="noopener"
@@ -77,22 +77,22 @@ export default {
           date: '2020.06',
           category: '機械・電機・工業',
         },
-        {
-          index: 7,
-          link: 'https://u-clinic.yokohama/',
-          src: require('@/assets/images/gallery/gallery_07.jpg'),
-          alt: '医療法人横浜医仁 上田クリニック',
-          date: '2020.01',
-          category: '病院・健康・薬',
-        },
-        {
-          index: 8,
-          link: 'https://ogumashearing.co.jp/',
-          src: require('@/assets/images/gallery/gallery_08.jpg'),
-          alt: '有限会社尾熊シャーリング',
-          date: '2020.01',
-          category: '機械・電機・工業',
-        },
+        // {
+        //   index: 7,
+        //   link: 'https://u-clinic.yokohama/',
+        //   src: require('@/assets/images/gallery/gallery_07.jpg'),
+        //   alt: '医療法人横浜医仁 上田クリニック',
+        //   date: '2020.01',
+        //   category: '病院・健康・薬',
+        // },
+        // {
+        //   index: 8,
+        //   link: 'https://ogumashearing.co.jp/',
+        //   src: require('@/assets/images/gallery/gallery_08.jpg'),
+        //   alt: '有限会社尾熊シャーリング',
+        //   date: '2020.01',
+        //   category: '機械・電機・工業',
+        // },
         {
           index: 9,
           link: 'https://tigre-jp.com/',
@@ -101,14 +101,14 @@ export default {
           date: '2021.02',
           category: '美容・化粧品・ケア用品',
         },
-        {
-          index: 10,
-          link: 'https://chigasakiseika.jp/',
-          src: require('@/assets/images/gallery/gallery_10.jpg'),
-          alt: '株式会社茅ヶ崎青果地方卸売市場',
-          date: '2020.04',
-          category: '農業・自然・漁業',
-        },
+        // {
+        //   index: 10,
+        //   link: 'https://chigasakiseika.jp/',
+        //   src: require('@/assets/images/gallery/gallery_10.jpg'),
+        //   alt: '株式会社茅ヶ崎青果地方卸売市場',
+        //   date: '2020.04',
+        //   category: '農業・自然・漁業',
+        // },
         {
           index: 11,
           link: 'https://shibashimo.com/',
@@ -485,10 +485,34 @@ export default {
           date: '2021.12',
           category: '飲食店・グルメ',
         },
+        {
+          index: 58,
+          link: 'https://dahlia801.com/',
+          src: require('@/assets/images/gallery/gallery_58.jpg'),
+          alt: 'DAHLIA',
+          date: '2021.12',
+          category: '飲食店・グルメ',
+        },
+        {
+          index: 59,
+          link: 'https://kintoki-an.com/',
+          src: require('@/assets/images/gallery/gallery_59.jpg'),
+          alt: '空のはね',
+          date: '2022.3',
+          category: '学校・教育・保育園・幼稚園',
+        },
+        {
+          index: 60,
+          link: 'https://colors-info.com/',
+          src: require('@/assets/images/gallery/gallery_60.jpg'),
+          alt: 'カラーズ',
+          date: '2022.4',
+          category: '飲食店・グルメ',
+        },
       ],
-    };
+    }
   },
-};
+}
 </script>
 
 <style lang="scss" scoped>
