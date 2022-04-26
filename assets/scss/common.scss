@@ -23,8 +23,11 @@ body {
   @include mintab {
     background-attachment: fixed;
   }
+  @include pctab {
+    padding: 0 24px;
+  }
   @include sp {
-    padding: 0 20px;
+    padding: 0 16px;
     font-size: $font-size-sp;
   }
 }
@@ -73,18 +76,18 @@ h1 {
   background: rgba($base-color, 0.8);
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  padding: 100px;
-  margin-bottom: 100px;
+  padding: 72px;
+  margin-bottom: 96px;
   @include base {
-    padding: 80px;
+    padding: 56px;
   }
   @include pctab {
-    padding: 60px;
-    margin-bottom: 80px;
+    padding: 48px;
+    margin-bottom: 72px;
   }
   @include sp {
-    padding: 20px;
-    margin-bottom: 60px;
+    padding: 24px;
+    margin-bottom: 56px;
   }
 }
 
