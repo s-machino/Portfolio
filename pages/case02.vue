@@ -2,22 +2,22 @@
   <div>
     <h1>Case 02</h1>
     <div class="contents">
-      <div class="case_datail">
-        <b class="name">株式会社NEXT STAGE</b>
-        <p class="tool">Design / Photoshop / HTML / Scss / Javascript</p>
-        <p>
+      <div class="case-datail">
+        <b class="case-datail__name">株式会社NEXT STAGE</b>
+        <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
+        <p class="case-datail__text">
           退職代行サービスのプロモーションサイト。<br />
           設立されたばかりということもあり、コンバージョンに繋がるようなUIを意識。<br />
           フォームに誘導するようなデザイン、CVボタンに動きを加えるなど工夫させていただきました。
         </p>
       </div>
-      <div class="img_container_pc">
-        <div class="img_wrap" v-for="image in images" :key="image.index">
+      <div class="img-container__pc">
+        <div v-for="image in images" :key="image.index" class="img-wrap">
           <img :src="image.src" :alt="image.alt" />
         </div>
       </div>
-      <div class="img_container_sp">
-        <div class="img_wrap" v-for="image2 in images2" :key="image2.index">
+      <div class="img-container__sp">
+        <div v-for="image2 in images2" :key="image2.index" class="img-wrap">
           <img :src="image2.src" :alt="image2.alt" />
         </div>
       </div>
@@ -63,7 +63,7 @@ export default {
           alt: '株式会社NEXT STAGE SP',
         },
       ],
-    };
+    }
   },
-};
+}
 </script>

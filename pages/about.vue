@@ -1,18 +1,14 @@
 <template>
-  <div>
+  <section>
     <h1>About</h1>
     <div class="contents">
       <div class="sec-1 _en">
-        <div class="title_1">
-          <h2>Profile</h2>
-        </div>
+        <h2 class="title-1">Profile</h2>
         <p>Name：Satomi Machino</p>
         <p>Job：Web Designer / Front-end Engineer</p>
       </div>
       <div class="sec-2">
-        <div class="title_1">
-          <h2>Overview</h2>
-        </div>
+        <h2 class="title-1">Overview</h2>
         <p>
           Webデザイナー、フロントエンドエンジニアとして活動をしております。<br />
           デザインツール：Photoshop、Illustrator、Adobe XD<br />
@@ -24,5 +20,5 @@
         </p>
       </div>
     </div>
-  </div>
+  </section>
 </template>

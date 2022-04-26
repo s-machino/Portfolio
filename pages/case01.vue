@@ -2,25 +2,29 @@
   <div>
     <h1>Case 01</h1>
     <div class="contents">
-      <div class="case_datail">
-        <b class="name">株式会社井口石材</b>
-        <a href="https://iguchisekizai.co.jp/" target="_blank" rel="noopener"
+      <div class="case-datail">
+        <b class="case-datail__name">株式会社井口石材</b>
+        <a
+          href="https://iguchisekizai.co.jp/"
+          target="_blank"
+          rel="noopener"
+          class="case-datail__link"
           >https://iguchisekizai.co.jp/</a
         >
-        <p class="tool">Direction / Design / Photoshop / HTML / Scss / Javascript</p>
-        <p>
+        <p class="case-datail__tool">Direction / Design / Photoshop / HTML / Scss / Javascript</p>
+        <p class="case-datail__text">
           老舗である石材店様のコーポレートサイト。本件ではディレクションから携わらせていただきました。<br />
           新しいサービスである「ソウルジュエリー」の紹介もしつつ、メインは歴史ある寺院墓地やサービス内容などの紹介。<br />
           ターゲットが高齢層ということもあり、見やすく、かつ落ち着きのあるデザインを意識いたしました。
         </p>
       </div>
-      <div class="img_container_pc">
-        <div class="img_wrap" v-for="image in images" :key="image.index">
+      <div class="img-container__pc">
+        <div v-for="image in images" :key="image.index" class="img-wrap">
           <img :src="image.src" :alt="image.alt" />
         </div>
       </div>
-      <div class="img_container_sp">
-        <div class="img_wrap" v-for="image2 in images2" :key="image2.index">
+      <div class="img-container__sp">
+        <div v-for="image2 in images2" :key="image2.index" class="img-wrap">
           <img :src="image2.src" :alt="image2.alt" />
         </div>
       </div>
@@ -66,7 +70,7 @@ export default {
           alt: '株式会社井口石材SPメイン画像3',
         },
       ],
-    };
+    }
   },
-};
+}
 </script>

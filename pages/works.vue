@@ -1,33 +1,26 @@
 <template>
   <div>
     <h1>Works</h1>
-    <div class="contents">
-      <div class="box-wrapper">
+    <section class="contents">
+      <div class="card-wrapper">
         <nuxt-link
           v-for="image in sortedImagesById"
-          class="box"
-          :to="image.link"
           :key="image.index"
+          class="card"
+          :to="image.link"
         >
-          <img :src="image.src" :alt="image.alt" class="box-image" />
-          <div class="box-detail">
-            <span class="box-title">{{ image.alt }}</span>
+          <img :src="image.src" :alt="image.alt" class="card-image" />
+          <div class="card-detail">
+            <span class="card-title">{{ image.alt }}</span>
           </div>
         </nuxt-link>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 
 <script>
 export default {
-  computed: {
-    sortedImagesById() {
-      return this.images.sort((a, b) => {
-        return b.index - a.index;
-      });
-    },
-  },
   data() {
     return {
       images: [
@@ -98,17 +91,30 @@ export default {
           alt: '株式会社R / カラーズ',
         },
       ],
-    };
+    }
   },
-};
+  computed: {
+    sortedImagesById() {
+      return this.images.slice().sort((a, b) => {
+        return b.index - a.index
+      })
+    },
+  },
+}
 </script>
 
 <style lang="scss" scoped>
-.box {
+.card {
   width: 48%;
   display: block;
   margin-bottom: 4%;
   text-align: center;
+  &:not(:nth-child(2n)) {
+    margin-right: 4%;
+    @include sp {
+      margin-right: 0;
+    }
+  }
   @include sp {
     width: 100%;
     &:not(:last-child) {
@@ -136,12 +142,6 @@ export default {
     font-family: 'object-fit: cover;';
     transition: 0.3s;
     filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
-  }
-  &:not(:nth-child(2n)) {
-    margin-right: 4%;
-    @include sp {
-      margin-right: 0;
-    }
   }
 
   &-detail {

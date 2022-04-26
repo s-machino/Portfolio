@@ -2,24 +2,28 @@
   <div>
     <h1>Case 03</h1>
     <div class="contents">
-      <div class="case_datail">
-        <b class="name">有限会社ステップファクトリー</b>
-        <a href="https://stepfactory.co.jp/" target="_blank" rel="noopener"
+      <div class="case-datail">
+        <b class="case-datail__name">有限会社ステップファクトリー</b>
+        <a
+          href="https://stepfactory.co.jp/"
+          target="_blank"
+          rel="noopener"
+          class="case-datail__link"
           >https://stepfactory.co.jp/</a
         >
-        <p class="tool">Design / Photoshop / HTML / Scss / Javascript</p>
-        <p>
+        <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
+        <p class="case-datail__text">
           企画・生産・営業・販売支援のトータルサポートをされている企業様のコーポレートサイト。<br />
           国内外でサービス展開されていることもあり、どこか洋風、ボタンデザインも少し個性のあるものに。
         </p>
       </div>
-      <div class="img_container_pc">
-        <div class="img_wrap" v-for="image in images" :key="image.index">
+      <div class="img-container__pc">
+        <div v-for="image in images" :key="image.index" class="img-wrap">
           <img :src="image.src" :alt="image.alt" />
         </div>
       </div>
-      <div class="img_container_sp">
-        <div class="img_wrap" v-for="image2 in images2" :key="image2.index">
+      <div class="img-container__sp">
+        <div v-for="image2 in images2" :key="image2.index" class="img-wrap">
           <img :src="image2.src" :alt="image2.alt" />
         </div>
       </div>
@@ -65,7 +69,7 @@ export default {
           alt: '有限会社ステップファクトリーSP',
         },
       ],
-    };
+    }
   },
-};
+}
 </script>

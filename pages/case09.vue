@@ -2,25 +2,25 @@
   <div>
     <h1>Case 09</h1>
     <div class="contents">
-      <div class="case_datail">
-        <b class="name">合同会社ECOlead</b>
-        <a href="https://ecolead1217.com/" target="_blank" rel="noopener"
+      <div class="case-datail">
+        <b class="case-datail__name">合同会社ECOlead</b>
+        <a href="https://ecolead1217.com/" target="_blank" rel="noopener" class="case-datail__link"
           >https://ecolead1217.com/</a
         >
-        <p class="tool">Design / Photoshop / HTML / Scss / Javascript</p>
-        <p>
+        <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
+        <p class="case-datail__text">
           不用品回収/買取/遺品整理のサービス紹介サイト。コンバージョンに繋がるようなサイトをご要望でしたので、<br />
           TOPページはプロモーションサイトのようなメリハリのある構成・デザインに。<br />
           フラットアイコンや写真などを使い、サービス内容や魅力、メリットをわかりやすく紹介。<br />
         </p>
       </div>
-      <div class="img_container_pc">
-        <div class="img_wrap" v-for="image in images" :key="image.index">
+      <div class="img-container__pc">
+        <div v-for="image in images" :key="image.index" class="img-wrap">
           <img :src="image.src" :alt="image.alt" />
         </div>
       </div>
-      <div class="img_container_sp">
-        <div class="img_wrap" v-for="image2 in images2" :key="image2.index">
+      <div class="img-container__sp">
+        <div v-for="image2 in images2" :key="image2.index" class="img-wrap">
           <img :src="image2.src" :alt="image2.alt" />
         </div>
       </div>
@@ -66,7 +66,7 @@ export default {
           alt: '合同会社ECOlead SPメイン画像3',
         },
       ],
-    };
+    }
   },
-};
+}
 </script>

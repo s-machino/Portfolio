@@ -2,25 +2,25 @@
   <div>
     <h1>Case 07</h1>
     <div class="contents">
-      <div class="case_datail">
-        <b class="name">エンラボ</b>
-        <a href="https://enn-lab.co.jp/lp/" target="_blank" rel="noopener"
+      <div class="case-datail">
+        <b class="case-datail__name">エンラボ</b>
+        <a href="https://enn-lab.co.jp/lp/" target="_blank" rel="noopener" class="case-datail__link"
           >https://enn-lab.co.jp/lp/</a
         >
-        <p class="tool">HTML / Scss / Javascript / PHP / Wordpress</p>
-        <p>
+        <p class="case-datail__tool">HTML / Scss / Javascript / PHP / Wordpress</p>
+        <p class="case-datail__text">
           指定障害福祉サービス・自立訓練事業されているお客様のプロモーションサイト。<br />
           お客様のご要望により、HTMLベースで制作後、ワードプレスに組み込みました。<br />
           お問い合わせフォームは各事業所に送信できるようプラグインを拡張。
         </p>
       </div>
-      <div class="img_container_pc">
-        <div class="img_wrap" v-for="image in images" :key="image.index">
+      <div class="img-container__pc">
+        <div v-for="image in images" :key="image.index" class="img-wrap">
           <img :src="image.src" :alt="image.alt" />
         </div>
       </div>
-      <div class="img_container_sp">
-        <div class="img_wrap" v-for="image2 in images2" :key="image2.index">
+      <div class="img-container__sp">
+        <div v-for="image2 in images2" :key="image2.index" class="img-wrap">
           <img :src="image2.src" :alt="image2.alt" />
         </div>
       </div>
@@ -66,7 +66,7 @@ export default {
           alt: 'エンラボSPメイン画像3',
         },
       ],
-    };
+    }
   },
-};
+}
 </script>

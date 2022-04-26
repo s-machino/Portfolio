@@ -2,28 +2,28 @@
   <div>
     <h1>Case 11</h1>
     <div class="contents">
-      <div class="case_datail">
-        <b class="name">株式会社R / カラーズ</b>
-        <a href="https://colors-info.com/" target="_blank" rel="noopener"
+      <div class="case-datail">
+        <b class="case-datail__name">株式会社R / カラーズ</b>
+        <a href="https://colors-info.com/" target="_blank" rel="noopener" class="case-datail__link"
           >https://colors-info.com/</a
         >
-        <p class="tool">
+        <p class="case-datail__tool">
           Design / Adobe XD / React / Next.js / Typescript / Atomic Design / Scss / microCMS /
           Vercel
         </p>
-        <p>
+        <p class="case-datail__text">
           各店舗の空席数がタイムリーで確認できるJamstackなサイト。<br />
           フレームワークはNext.jsを使用しており、お客様で入力・管理できるようにmicroCMSとVercelを連携させています。<br />
           クライアントからのご要望で納期が3週間とかなりタイトでしたが、スピーディに対応させていただき、無事納品まで持っていくことができました。
         </p>
       </div>
-      <div class="img_container_pc">
-        <div class="img_wrap" v-for="image in images" :key="image.index">
+      <div class="img-container__pc">
+        <div v-for="image in images" :key="image.index" class="img-wrap">
           <img :src="image.src" :alt="image.alt" />
         </div>
       </div>
-      <div class="img_container_sp">
-        <div class="img_wrap" v-for="image2 in images2" :key="image2.index">
+      <div class="img-container__sp">
+        <div v-for="image2 in images2" :key="image2.index" class="img-wrap">
           <img :src="image2.src" :alt="image2.alt" />
         </div>
       </div>
@@ -69,7 +69,7 @@ export default {
           alt: 'カラーズSPメイン画像3',
         },
       ],
-    };
+    }
   },
-};
+}
 </script>
