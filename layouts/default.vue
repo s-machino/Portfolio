@@ -8,6 +8,20 @@
   </div>
 </template>
 
+<script>
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
+import '@/assets/scss/common.scss'
+import '@/assets/scss/case.scss'
+
+export default {
+  components: {
+    Header,
+    Footer,
+  },
+}
+</script>
+
 <style lang="scss" scoped>
 .page-enter-active,
 .page-leave-active {
@@ -19,16 +33,3 @@
   transform: translate(0, 30px);
 }
 </style>
-
-<script>
-import Header from '@/components/Header.vue';
-import Footer from '@/components/Footer.vue';
-import '@/assets/scss/common.scss';
-
-export default {
-  components: {
-    Header,
-    Footer,
-  },
-};
-</script>
