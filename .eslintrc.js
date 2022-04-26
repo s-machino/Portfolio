@@ -15,5 +15,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies:': 'off',
     'global-require': 'off',
+    'vue/first-attribute-linebreak': 'off',
+    'vue/no-reserved-props': 'off',
   },
 }
