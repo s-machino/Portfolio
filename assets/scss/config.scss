@@ -2,24 +2,23 @@ $noto: 'Noto Sans JP', sans-serif;
 $roboto: 'Roboto', sans-serif;
 $quick: 'Quicksand', sans-serif;
 $tbHeight: 70px;
-$inner: 1200px;
-$red: #c00;
+$inner: 1280px;
 $base-color: #ffffff;
 $main-color: #7f9fc7;
 $acc-color: #cccccc;
 $text-color: #333333;
+$red: #c00;
 $font-size: 1.6rem;
 $font-size-sp: 1.4rem;
 $imgUrl: '@/assets/images/works/';
 $imgUrl2: '@/assets/images/gallery/';
-
 $sp-width: 640px;
 $sp2-width: 520px;
 $tab-width: 834px;
 $pctab-width: 1024px;
 $pc-width: 1366px;
-$base-width: 1200px;
-$base2-width: 1000px;
+$base-width: 12080px;
+$base2-width: 1080px;
 
 @mixin flex($justify-content: unset, $align-items: unset) {
   display: flex;
@@ -52,48 +51,33 @@ $base2-width: 1000px;
     @content;
   }
 }
+
 @mixin sp {
   @media only screen and (max-width: $sp-width) {
     @content;
   }
 }
+
 @mixin tab {
   @media only screen and (max-width: $tab-width) {
     @content;
   }
 }
+
 @mixin pctab {
   @media only screen and (max-width: $pctab-width) {
     @content;
   }
 }
+
 @mixin mintab {
   @media screen and (min-width: 1025px) {
     @content;
   }
 }
+
 @mixin base {
   @media screen and (max-width: $base-width) {
-    @content;
-  }
-}
-@mixin bp1000 {
-  @media screen and (max-width: 1000px) {
-    @content;
-  }
-}
-@mixin bp1200 {
-  @media screen and (max-width: 1200px) {
-    @content;
-  }
-}
-@mixin bp1300 {
-  @media screen and (max-width: 1300px) {
-    @content;
-  }
-}
-@mixin bp1400 {
-  @media screen and (max-width: 1400px) {
     @content;
   }
 }
