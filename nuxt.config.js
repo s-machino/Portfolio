@@ -1,4 +1,4 @@
-import Sass from 'sass';
+import Sass from 'sass'
 // import Fiber from 'fibers';
 
 export default {
@@ -67,4 +67,4 @@ export default {
       },
     },
   },
-};
+}
