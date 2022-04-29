@@ -36,34 +36,34 @@ export default {
         {
           index: 1,
           src: require('@/assets/images/works/works_11-1_pc.jpg'),
-          alt: 'カラーズPCメイン画像1',
+          alt: '空のはねPCメイン画像1',
         },
         {
           index: 2,
           src: require('@/assets/images/works/works_11-2_pc.jpg'),
-          alt: 'カラーズPCメイン画像2',
+          alt: '空のはねPCメイン画像2',
         },
         {
           index: 3,
           src: require('@/assets/images/works/works_11-3_pc.jpg'),
-          alt: 'カラーズPCメイン画像3',
+          alt: '空のはねPCメイン画像3',
         },
       ],
       images2: [
         {
           index: 1,
           src: require('@/assets/images/works/works_11-1_sp.png'),
-          alt: 'カラーズSPメイン画像1',
+          alt: '空のはねSPメイン画像1',
         },
         {
           index: 2,
           src: require('@/assets/images/works/works_11-2_sp.png'),
-          alt: 'カラーズSPメイン画像2',
+          alt: '空のはねSPメイン画像2',
         },
         {
           index: 3,
           src: require('@/assets/images/works/works_11-3_sp.png'),
-          alt: 'カラーズSPメイン画像3',
+          alt: '空のはねSPメイン画像3',
         },
       ],
     }
