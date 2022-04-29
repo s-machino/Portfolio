@@ -1,17 +1,19 @@
 <template>
   <div>
-    <h1>Case 11</h1>
+    <h1>Case 12</h1>
     <div class="contents">
       <div class="case-datail">
-        <b class="case-datail__name">株式会社空のはね</b>
+        <b class="case-datail__name">株式会社R / カラーズ</b>
         <a href="https://colors-info.com/" target="_blank" rel="noopener" class="case-datail__link"
-          >https://soranohane.com/</a
+          >https://colors-info.com/</a
         >
-        <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
+        <p class="case-datail__tool">
+          Design / Adobe XD / React / Next.js / Typescript / Atomic Design / Scss / microCMS /
+          Vercel
+        </p>
         <p class="case-datail__text">
-          幼稚園のグループサイト。<br />
-          楽しく明るい園の雰囲気に合わせ、全体的にワクワクするようなかわいらしくポップなデザインに。<br />
-          フォントはラノベPOPフォントで楽しく、読みやすく。<br />
+          各店舗の空席数がタイムリーで確認できるJamstackなサイト。<br />
+          フレームワークはNext.jsを使用しており、お客様で入力・管理できるようにmicroCMSとVercelを連携させています。<br />
         </p>
       </div>
       <div class="img-container__pc">
@@ -35,34 +37,34 @@ export default {
       images: [
         {
           index: 1,
-          src: require('@/assets/images/works/works_11-1_pc.jpg'),
+          src: require('@/assets/images/works/works_12-1_pc.jpg'),
           alt: 'カラーズPCメイン画像1',
         },
         {
           index: 2,
-          src: require('@/assets/images/works/works_11-2_pc.jpg'),
+          src: require('@/assets/images/works/works_12-2_pc.jpg'),
           alt: 'カラーズPCメイン画像2',
         },
         {
           index: 3,
-          src: require('@/assets/images/works/works_11-3_pc.jpg'),
+          src: require('@/assets/images/works/works_12-3_pc.jpg'),
           alt: 'カラーズPCメイン画像3',
         },
       ],
       images2: [
         {
           index: 1,
-          src: require('@/assets/images/works/works_11-1_sp.png'),
+          src: require('@/assets/images/works/works_12-1_sp.png'),
           alt: 'カラーズSPメイン画像1',
         },
         {
           index: 2,
-          src: require('@/assets/images/works/works_11-2_sp.png'),
+          src: require('@/assets/images/works/works_12-2_sp.png'),
           alt: 'カラーズSPメイン画像2',
         },
         {
           index: 3,
-          src: require('@/assets/images/works/works_11-3_sp.png'),
+          src: require('@/assets/images/works/works_12-3_sp.png'),
           alt: 'カラーズSPメイン画像3',
         },
       ],

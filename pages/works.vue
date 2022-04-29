@@ -88,6 +88,12 @@ export default {
           index: 11,
           link: '/case11',
           src: require('@/assets/images/works/works_11_thumb.jpg'),
+          alt: '株式会社空のはね',
+        },
+        {
+          index: 12,
+          link: '/case12',
+          src: require('@/assets/images/works/works_12_thumb.jpg'),
           alt: '株式会社R / カラーズ',
         },
       ],
