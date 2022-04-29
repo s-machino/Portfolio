@@ -14,7 +14,6 @@
         <p class="case-datail__text">
           各店舗の空席数がタイムリーで確認できるJamstackなサイト。<br />
           フレームワークはNext.jsを使用しており、お客様で入力・管理できるようにmicroCMSとVercelを連携させています。<br />
-          クライアントからのご要望で納期が3週間とかなりタイトでしたが、スピーディに対応させていただき、無事納品まで持っていくことができました。
         </p>
       </div>
       <div class="img-container__pc">
