@@ -10,7 +10,7 @@
         <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
         <p class="case-datail__text">
           幼稚園のグループサイト。<br />
-          楽しく明るい園の雰囲気に合わせ、全体的にワクワクするようなかわいらしくポップなデザインに。<br />
+          楽しく明るい園の雰囲気に合わせ、全体的にワクワク感を想起させるようなかわいらしくポップなデザインに。<br />
           フォントはラノベPOPフォントで楽しく、読みやすく。<br />
         </p>
       </div>
