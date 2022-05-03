@@ -13,7 +13,9 @@
         </p>
         <p class="case-datail__text">
           各店舗の空席数がタイムリーで確認できるJamstackなサイト。<br />
-          フレームワークはNext.jsを使用しており、お客様で入力・管理できるようにmicroCMSとVercelを連携させています。<br />
+          フレームワークはNext.jsを採用しており、microCMSのデータを取得、<br />
+          お客様で入力・管理したものが自動的に反映されるよう、Vercelと連携をさせています。<br />
+          クライアントの希望により、更新・公開された順に昇順表示されるようにしました。
         </p>
       </div>
       <div class="img-container__pc">
