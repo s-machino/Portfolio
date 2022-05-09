@@ -9,7 +9,7 @@
         >
         <p class="case-datail__tool">
           Design / Adobe XD / React / Next.js / Typescript / Atomic Design / Scss / microCMS /
-          Vercel
+          Vercel / GA4
         </p>
         <p class="case-datail__text">
           各店舗の空席数がタイムリーで確認できるJamstackなサイト。<br />
