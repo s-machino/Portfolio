@@ -4,7 +4,7 @@
     <div class="contents">
       <div class="case-datail">
         <b class="case-datail__name">株式会社空のはね</b>
-        <a href="https://colors-info.com/" target="_blank" rel="noopener" class="case-datail__link"
+        <a href="https://soranohane.com/" target="_blank" rel="noopener" class="case-datail__link"
           >https://soranohane.com/</a
         >
         <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
