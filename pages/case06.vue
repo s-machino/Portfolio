@@ -8,11 +8,11 @@
           >https://oyukai-lc.net/</a
         >
         <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
-        <p class="case-datail__text">
+        <!-- <p class="case-datail__text">
           レディースクリニック様の医院紹介サイト。<br />
           トンマナに関しては、高級感のある美しい院内内観に合わせ、品のあるシンプルでスタイリッシュなものに。<br />
           WEB予約が容易にできるよう、ボタンは常時固定を採用いたしました。
-        </p>
+        </p> -->
       </div>
       <div class="img-container__pc">
         <div v-for="image in images" :key="image.index" class="img-wrap">

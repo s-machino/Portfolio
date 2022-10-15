@@ -6,11 +6,11 @@
         <b class="case-datail__name">アルファ・ジャパン</b>
         <!-- <a href="https://mining-express.net/" target="_blank" rel="noopener" class="case-datail__link">https://mining-express.net/</a> -->
         <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
-        <p class="case-datail__text">
+        <!-- <p class="case-datail__text">
           データセンター事業されている企業様のコーポレートサイト。<br />
           ポイントとしては固定の「ENGLISH」ボタンで、ページ毎に翻訳ページに飛べるよう、Javascriptで実装いたしました。<br />
           他にも、埋め込んでいるGoogleカレンダーが15日を基準に月が切り替わるように実装するなど、クライアントの要望に沿った仕組みを構築いたしました。
-        </p>
+        </p> -->
       </div>
       <div class="img-container__pc">
         <div v-for="image in images" :key="image.index" class="img-wrap">

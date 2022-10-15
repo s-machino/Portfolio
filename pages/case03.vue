@@ -12,10 +12,10 @@
           >https://stepfactory.co.jp/</a
         >
         <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
-        <p class="case-datail__text">
+        <!-- <p class="case-datail__text">
           企画・生産・営業・販売支援のトータルサポートをされている企業様のコーポレートサイト。<br />
-          国内外でサービス展開されていることもあり、どこか洋風、ボタンデザインも少し個性のあるものに。
-        </p>
+          ボタンデザインも少し個性のあるものに。
+        </p> -->
       </div>
       <div class="img-container__pc">
         <div v-for="image in images" :key="image.index" class="img-wrap">

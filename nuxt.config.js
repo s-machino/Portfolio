@@ -4,9 +4,6 @@ import Sass from 'sass'
 export default {
   ssr: false,
   // target: "static",
-  htmlAttrs: {
-    lang: 'ja',
-  },
   head: {
     title: 'portfolio',
     htmlAttrs: {

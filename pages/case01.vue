@@ -12,11 +12,11 @@
           >https://iguchisekizai.co.jp/</a
         >
         <p class="case-datail__tool">Direction / Design / Photoshop / HTML / Scss / Javascript</p>
-        <p class="case-datail__text">
+        <!-- <p class="case-datail__text">
           老舗である石材店様のコーポレートサイト。本件ではディレクションから携わらせていただきました。<br />
           新しいサービスである「ソウルジュエリー」の紹介もしつつ、メインは歴史ある寺院墓地やサービス内容などの紹介。<br />
           ターゲットが高齢層ということもあり、見やすく、かつ落ち着きのあるデザインを意識いたしました。
-        </p>
+        </p> -->
       </div>
       <div class="img-container__pc">
         <div v-for="image in images" :key="image.index" class="img-wrap">
