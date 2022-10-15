@@ -8,11 +8,11 @@
           >https://enn-lab.co.jp/lp/</a
         >
         <p class="case-datail__tool">HTML / Scss / Javascript / PHP / Wordpress</p>
-        <p class="case-datail__text">
+        <!-- <p class="case-datail__text">
           指定障害福祉サービス・自立訓練事業されているお客様のプロモーションサイト。<br />
           お客様のご要望により、HTMLベースで制作後、ワードプレスに組み込みました。<br />
           お問い合わせフォームは各事業所に送信できるようプラグインを拡張。
-        </p>
+        </p> -->
       </div>
       <div class="img-container__pc">
         <div v-for="image in images" :key="image.index" class="img-wrap">

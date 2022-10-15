@@ -7,12 +7,12 @@
         <a href="https://soranohane.com/" target="_blank" rel="noopener" class="case-datail__link"
           >https://soranohane.com/</a
         >
-        <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
-        <p class="case-datail__text">
+        <p class="case-datail__tool">Design / Photoshop / Illustrator / HTML / Scss / Javascript</p>
+        <!-- <p class="case-datail__text">
           幼稚園のグループサイト。<br />
           楽しく明るい園の雰囲気に合わせ、全体的にワクワク感を想起させるようなかわいらしくポップなデザインに。<br />
           フォントはラノベPOPフォントで楽しく、読みやすく。<br />
-        </p>
+        </p> -->
       </div>
       <div class="img-container__pc">
         <div v-for="image in images" :key="image.index" class="img-wrap">

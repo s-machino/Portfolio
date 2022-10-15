@@ -7,11 +7,11 @@
         <a href="https://hp-free.com/" target="_blank" rel="noopener" class="case-datail__link"
           >https://hp-free.com/</a
         >
-        <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
+        <p class="case-datail__tool">Design / Photoshop / Illustrator / HTML / Scss / Javascript</p>
         <p class="case-datail__text">
           ホームページ制作のプロモーションサイト。<br />
-          『制作費0円』や『無料サポート』など、豊富なサービス内容をより見ていただけるよう、下のコンテンツまで飽きさせないような遊び心のあるデザインに。<br />
-          またホームページ制作会社としての親しみやすさが伝わるようなフラットデザインを採用、コンバージョンにつながるようなUIを心掛けました。<br />
+          『制作費0円』や『無料サポート』など、豊富なサービス内容をよりユーザーに見てもらえるよう、ユーザーの導線を意識しつつ、下のコンテンツまで飽きさせないような遊び心のあるデザインに。<br />
+          またホームページ制作会社としての親しみやすさが伝わるようフラットデザインを採用、コンバージョンにつながるようなUIを心掛けました。<br />
         </p>
       </div>
       <div class="img-container__pc">

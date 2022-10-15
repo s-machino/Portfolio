@@ -8,11 +8,11 @@
           >https://tram2014.com/</a
         >
         <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
-        <p class="case-datail__text">
+        <!-- <p class="case-datail__text">
           美容室・サロンの店舗紹介サイト。<br />
           フォントや余白感・使用する画像にもこだわり、店舗のテーマが「ヨーロッパの路面電車」とのことで、海外風の洗練されたサイトデザインに。<br />
           ローディングアニメーションから始まり、各コンテンツにも飽きさせないような遊び心のあるアニメーションを実装。
-        </p>
+        </p> -->
       </div>
       <div class="img-container__pc">
         <div v-for="image in images" :key="image.index" class="img-wrap">

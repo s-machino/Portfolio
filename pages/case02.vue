@@ -4,12 +4,19 @@
     <div class="contents">
       <div class="case-datail">
         <b class="case-datail__name">株式会社NEXT STAGE</b>
+        <a
+          href="https://next-stage.chiba.jp/"
+          target="_blank"
+          rel="noopener"
+          class="case-datail__link"
+          >https://next-stage.chiba.jp/</a
+        >
         <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
-        <p class="case-datail__text">
+        <!-- <p class="case-datail__text">
           退職代行サービスのプロモーションサイト。<br />
           設立されたばかりということもあり、コンバージョンに繋がるようなUIを意識。<br />
           フォームに誘導するようなデザイン、CVボタンに動きを加えるなど工夫させていただきました。
-        </p>
+        </p> -->
       </div>
       <div class="img-container__pc">
         <div v-for="image in images" :key="image.index" class="img-wrap">

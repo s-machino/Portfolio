@@ -8,11 +8,11 @@
           >https://ecolead1217.com/</a
         >
         <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
-        <p class="case-datail__text">
+        <!-- <p class="case-datail__text">
           不用品回収/買取/遺品整理のサービス紹介サイト。コンバージョンに繋がるようなサイトをご要望でしたので、<br />
           TOPページはプロモーションサイトのようなメリハリのある構成・デザインに。<br />
           フラットアイコンや写真などを使い、サービス内容や魅力、メリットをわかりやすく紹介。<br />
-        </p>
+        </p> -->
       </div>
       <div class="img-container__pc">
         <div v-for="image in images" :key="image.index" class="img-wrap">

@@ -24,12 +24,12 @@ export default {
   data() {
     return {
       images: [
-        {
-          index: 1,
-          link: '/case01',
-          src: require('@/assets/images/works/works_10_thumb.jpg'),
-          alt: '株式会社井口石材',
-        },
+        // {
+        //   index: 1,
+        //   link: '/case01',
+        //   src: require('@/assets/images/works/works_10_thumb.jpg'),
+        //   alt: '株式会社井口石材',
+        // },
         {
           index: 2,
           link: '/case02',
@@ -48,12 +48,12 @@ export default {
           src: require('@/assets/images/works/works_04_thumb.jpg'),
           alt: 'NKワークス株式会社',
         },
-        {
-          index: 5,
-          link: '/case05',
-          src: require('@/assets/images/works/works_05_thumb.jpg'),
-          alt: 'アルファ・ジャパン',
-        },
+        // {
+        //   index: 5,
+        //   link: '/case05',
+        //   src: require('@/assets/images/works/works_05_thumb.jpg'),
+        //   alt: 'アルファ・ジャパン',
+        // },
         {
           index: 6,
           link: '/case06',

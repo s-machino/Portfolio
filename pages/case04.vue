@@ -8,11 +8,11 @@
           >https://nk-works.co.jp/</a
         >
         <p class="case-datail__tool">Design / Photoshop / HTML / Scss / Javascript</p>
-        <p class="case-datail__text">
+        <!-- <p class="case-datail__text">
           産業用機械の専門商社様のコーポレートサイト。総ページ数100ページを超える大型サイト。<br />
           ページ数が多いのでユーザーが迷子にならないよう、メガドロップダウンを採用。<br />
           製品ごとの特徴や仕様など見やすさとスタイリッシュさを重視したサイトデザインとなっております。
-        </p>
+        </p> -->
       </div>
       <div class="img-container__pc">
         <div v-for="image in images" :key="image.index" class="img-wrap">
