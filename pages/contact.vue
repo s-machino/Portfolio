@@ -58,7 +58,7 @@ label {
   }
 }
 .submit {
-  background: $main-color;
+  background: $primary-color;
   width: 240px;
   height: 60px;
   text-align: center;
