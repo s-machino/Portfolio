@@ -11,8 +11,8 @@
         <h2 class="title-1">Overview</h2>
         <p>
           フロントエンドエンジニア、Webデザイナーとして活動中。<br />
-          デザインツール：Photoshop、Illustrator、Adobe XD、Figmaなど。<br />
-          プログラミング言語：HTML、CSS（Sass）、JavaScript（React・Vanilla(ES6)・JQuery）、Typescript<br />
+          デザインツール：Photoshop、Illustrator、Adobe XD、Figma<br />
+          プログラミング言語：HTML、CSS（Sass）、JavaScript（React・jQuery）、Typescript<br />
           WordPressやmicroCMSなどにも対応しております。<br />
         </p>
       </div>
