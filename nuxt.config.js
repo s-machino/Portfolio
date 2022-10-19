@@ -3,7 +3,7 @@ import Sass from 'sass'
 
 export default {
   ssr: false,
-  // target: "static",
+  target: 'static',
   head: {
     title: 'portfolio',
     htmlAttrs: {
