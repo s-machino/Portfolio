@@ -1,8 +1,4 @@
-#.nuxt
 .nuxt/
-
-#node_modules
 node_modules
-
-#.eslintcache
 .eslintcache
+.DS_Store
