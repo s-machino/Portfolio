@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <a href="https://github.com/s-machino" target="_brank" rel="noopener" class="footer-icon">
+    <a href="https://github.com/smachiii" target="_brank" rel="noopener" class="footer-icon">
       <img src="@/assets/images/common/github_icon.svg" width="24px" height="24px"
     /></a>
     <p class="footer-copy">{{ new Date().getFullYear() }} - Satomi's Portfolio Site</p>
