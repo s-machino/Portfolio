@@ -344,6 +344,14 @@ export default {
           date: '2022.4',
           category: '飲食店・グルメ',
         },
+        {
+          index: 40,
+          link: 'https://nakasone-clinic.jp/',
+          src: require('@/assets/images/gallery/gallery_61.jpg'),
+          alt: 'なかそねメディカルクリニック',
+          date: '2022.8',
+          category: '病院・健康・薬',
+        },
       ],
     }
   },
