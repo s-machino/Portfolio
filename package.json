@@ -2,8 +2,6 @@
   "name": "portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "## Build Setup",
-  "main": ".eslintrc.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
