@@ -349,7 +349,7 @@ export default {
           link: 'https://nakasone-clinic.jp/',
           src: require('@/assets/images/gallery/gallery_61.jpg'),
           alt: 'なかそねメディカルクリニック',
-          date: '2022.8',
+          date: '2022.9',
           category: '病院・健康・薬',
         },
       ],
