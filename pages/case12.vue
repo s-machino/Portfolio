@@ -8,14 +8,12 @@
           >https://colors-info.com/</a
         >
         <p class="case-datail__tool">
-          Design / Adobe XD / React / Next.js / Typescript / Atomic Design / Scss / microCMS /
-          Vercel / GA4
+          Design / Adobe XD / React / Next.js / Typescript / Atomic Design / Scss / microCMS / GA4
         </p>
         <p class="case-datail__text">
           各店舗の空席数がタイムリーで確認できるJamstackなサイト。<br />
           フレームワークはNext.jsを採用しており、microCMSとAPI連携させています。<br />
-          コンテンツの更新時に、Vercelに自動デプロイされ、お客様で入力・管理したものが即時反映されるようになっています。<br />
-          クライアントの希望により、更新・公開された順に昇順表示される仕様にしています 。
+          クライアントの希望により、更新・公開された順にコンテンツを昇順表示される仕様にしています。
         </p>
       </div>
       <div class="img-container__pc">
