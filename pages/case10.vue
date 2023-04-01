@@ -4,14 +4,20 @@
     <div class="contents">
       <div class="case-datail">
         <b class="case-datail__name">イートラスト株式会社</b>
-        <a href="https://hp-free.com/" target="_blank" rel="noopener" class="case-datail__link"
+        <a
+          href="https://hp-free.com/"
+          target="_blank"
+          rel="noopener"
+          class="case-datail__link"
           >https://hp-free.com/</a
         >
-        <p class="case-datail__tool">Design / Photoshop / Illustrator / HTML / Scss / Javascript</p>
+        <p class="case-datail__tool">
+          Design / Photoshop / Illustrator / HTML / Scss / Javascript
+        </p>
         <p class="case-datail__text">
           ホームページ制作のプロモーションサイト。<br />
-          『制作費0円』や『無料サポート』などの訴求ポイントから、ユーザーの導線を意識しつつ、下のコンテンツまで飽きさせないような遊び心のあるデザインに。<br />
-          またホームページ制作会社としての親しみやすさが伝わるようフラットデザインを採用、コンバージョンにつながるようなUIを心掛けました。<br />
+          『制作費0円』や『無料サポート』などの訴求ポイントから、ユーザーの導線を意識しつつ、下のコンテンツまで飽きさせないような遊び心のあるデザインに。
+          企業としての「親しみやすさ」をユーザーに感じてもらうため、フラットデザインを採用しました。<br />
         </p>
       </div>
       <div class="img-container__pc">
